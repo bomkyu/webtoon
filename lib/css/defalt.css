@@ -79,7 +79,7 @@ hr { display: block; height: 4px; margin: 0; border: none; background: #eee; }
 
 .logo:before, .right .btn_search::after, .right .btn_mypage::after { background-image: url('../images/sp_comic_c315b4c8.png'); -webkit-background-size: 333px 322px; background-size: 333px 322px; background-repeat: no-repeat; display: inline-block; vertical-align: top; }
 
-header { position: fixed; width: 100%; left: 0; top: 0; background-color: #FFF; z-index: 90; }
+header { position: fixed; width: 100%; left: 0; top: 0; background-color: #FFF; z-index: 90; transition: 0.3s; }
 header .top { display: flex; }
 header .top .logo { margin: 12px 0 0 11px; padding: 5px 5px 4px; }
 header .top .logo:before { display: block; width: 17px; height: 16px; background-position: -298px -263px; background-repeat: no-repeat; content: ""; }
