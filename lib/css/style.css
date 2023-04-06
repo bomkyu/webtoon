@@ -13,4 +13,4 @@
 .list_toon_st2 dl dd { position: relative; padding-left: 38px; }
 .list_toon_st2 dl dd .rank { position: absolute; left: 13px; top: 7px; font-size: 20px; }
 .section_image_single { margin:20px 0; padding: 0 20px; text-align: center; }
-.section_image_single img { display: block; max-width: 320px; width: 100%; }
+.section_image_single img { display: block; max-width: 320px; width: 100%; margin: 0 auto; }
