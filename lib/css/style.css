@@ -4,7 +4,7 @@
 .section_collection { padding: 20px 0 17px; }
 .tab_list { margin-bottom: 10px; padding-left: 3px; font-size: 14px; }
 .tab_list::after { display: block; clear: both; content: ""; }
-.tab_list li { float: left; padding: 5px 13px; font-size: 14px; font-weight: 600; color: #999; line-height: 16px; }
+.tab_list li { float: left; padding: 5px 13px; font-size: 14px !important; font-weight: 600; color: #999; line-height: 16px; }
 .tab_list li.on { color:#000 }
 .list_toon_st2 { padding-left: 16px; }
 .list_toon_st2 li:not(:last-child) { margin-bottom: 6px; }
