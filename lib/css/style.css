@@ -6,11 +6,11 @@
 .tab_list::after { display: block; clear: both; content: ""; }
 .tab_list li { padding: 5px 13px; white-space: nowrap; font-weight: 600; color: #999; line-height: 16px; }
 .tab_list li.on { color:#000 }
-.list_toon_st2 { padding-left: 16px; }
+.list_toon_st2 { float: left; padding-left: 16px; }
 .list_toon_st2 li:not(:last-child) { margin-bottom: 6px; }
 .list_toon_st2 dl { display: flex; }
 .list_toon_st2 dl dt .img_wrap { width: 78px; padding-top: 70%; }
-.list_toon_st2 dl dd { position: relative; padding-left: 38px; }
+.list_toon_st2 dl dd { position: relative; width: calc( 100% - 78px ); padding-left: 38px; }
 .list_toon_st2 dl dd .rank { position: absolute; left: 13px; top: 7px; font-size: 20px; }
 .section_image_single { margin:20px 0; padding: 0 20px; text-align: center; }
 .section_image_single img { display: block; max-width: 320px; width: 100%; margin: 0 auto; }
